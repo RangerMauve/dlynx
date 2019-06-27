@@ -1,0 +1,35 @@
+{
+  "name": "dlynx",
+  "version": "0.0.1",
+  "description": "Like lynx, but for the distributed web.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RangerMauve/dlynx.git"
+  },
+  "keywords": [
+    "tui",
+    "browser",
+    "web",
+    "dat",
+    "internet",
+    "cli"
+  ],
+  "author": "rangermauve",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RangerMauve/dlynx/issues"
+  },
+  "homepage": "https://github.com/RangerMauve/dlynx#readme",
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "blessed-contrib": "^4.8.16",
+    "make-fetch-happen": "^4.0.1",
+    "neo-blessed": "^0.2.0",
+    "sdk": "github:datproject/sdk",
+    "turndown": "^5.0.3"
+  }
+}
