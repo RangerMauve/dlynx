@@ -138,6 +138,9 @@ omnibar.on('submit', async () => {
     screen.append(contents)
     contentAppended = true
   }
+
+  screen.title = `dlynx - ${url}`
+
   contents.setMarkdown(toRender)
   contents.focus()
 
