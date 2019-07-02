@@ -1,6 +1,6 @@
 {
   "name": "dlynx",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Like lynx, but for the distributed web.",
   "main": "index.js",
   "bin": "bin.js",
@@ -36,6 +36,7 @@
     "promise-defer": "^1.0.0",
     "proto-fetch": "^1.0.0",
     "then-eos": "^1.0.0",
-    "turndown": "^5.0.3"
+    "turndown": "^5.0.3",
+    "yargs": "^13.2.4"
   }
 }
