@@ -13,14 +13,11 @@ module.exports = (args) => {
     .command('$0 [url]', 'Open dlynx and load a URL', noop, run)
     .help()
     .parse(args)
-    .argv
 }
 
-function noop() {
+function noop () {}
 
-}
-
-function run(args) {
+function run (args) {
   // console.error = () => {
   //   // Oh well, we'll figure this out later
   // }
@@ -61,7 +58,7 @@ function run(args) {
 
   screen.render()
 
-  if(args.url) {
+  if (args.url) {
     dlynx.navigate(args.url)
   } else {
     dlynx.showWelcome()
