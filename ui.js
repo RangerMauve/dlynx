@@ -46,8 +46,6 @@ module.exports = class DLynx extends Box {
     this._contentAppended = null
     this._welcomeAppended = null
     this._omnibarAppended = null
-
-    this.showWelcome()
   }
 
   async navigate (url) {
@@ -89,6 +87,8 @@ module.exports = class DLynx extends Box {
     this.append(contents)
 
     this._contentAppended = contents
+
+    contents.focus()
 
     this.emit('navigated', url)
   }
